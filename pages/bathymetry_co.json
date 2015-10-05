@@ -1,0 +1,146 @@
+var geojson = [
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+           -0.046027,
+          51.530665
+        ],
+      "DepthMeter": 72
+    },
+    "properties": {
+      "title": "Mapbox DC",
+      "description": "1714 14th St NW, Washington DC",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "monument"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+           -0.4553307,
+           51.4867227 
+        ],
+      "DepthMeter": 32
+    },
+    "properties": {
+      "title": "Mapbox SF",
+      "description": "155 9th St, San Francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "harbor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -0.348172,
+          51.442244
+        ],
+      "DepthMeter": 45
+    },
+    "properties": {
+      "title": "Mapbox SF",
+      "description": "155 9th St, San Francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "harbor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -0.3590331,
+          51.4404259
+        ],
+      "DepthMeter": 32
+    },
+    "properties": {
+      "title": "Mapbox SF",
+      "description": "155 9th St, San Francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "harbor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+           -0.3308695,
+          51.4776384
+        ],
+      "DepthMeter": 52
+    },
+    "properties": {
+      "title": "Mapbox SF",
+      "description": "155 9th St, San Francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "harbor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+           -0.5823732,
+           51.4553492
+        ],
+      "DepthMeter": 62
+    },
+    "properties": {
+      "title": "Mapbox SF",
+      "description": "155 9th St, San Francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "harbor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates":  [
+          -0.4060108,
+          51.4473448
+        ],
+      "DepthMeter": 42
+    },
+    "properties": {
+      "title": "Mapbox SF",
+      "description": "155 9th St, San Francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "harbor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+           -0.3424649,
+           51.4251316
+        ],
+      "DepthMeter": 62
+    },
+    "properties": {
+      "title": "Mapbox SF",
+      "description": "155 9th St, San Francisco",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "harbor"
+    }
+  }
+];
