@@ -1,10 +1,11 @@
-{"type": "FeatureCollection",
+{
+  "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630003,
-        "DepthMeter": 65
+        "DepthMeter": 45
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630004,
-        "DepthMeter": 63
+        "DepthMeter": 45
       },
       "geometry": {
         "type": "Point",
@@ -32,7 +33,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630005,
-        "DepthMeter": 66
+        "DepthMeter": 44
       },
       "geometry": {
         "type": "Point",
@@ -46,7 +47,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630006,
-        "DepthMeter": 71
+        "DepthMeter": 47
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +61,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630007,
-        "DepthMeter": 0
+        "DepthMeter": 45
       },
       "geometry": {
         "type": "Point",
@@ -74,7 +75,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630008,
-        "DepthMeter": 67
+        "DepthMeter": 43
       },
       "geometry": {
         "type": "Point",
@@ -88,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630009,
-        "DepthMeter": 65
+        "DepthMeter": 48
       },
       "geometry": {
         "type": "Point",
@@ -102,7 +103,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630010,
-        "DepthMeter": 0
+        "DepthMeter": 43
       },
       "geometry": {
         "type": "Point",
@@ -116,13 +117,139 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630012,
-        "DepthMeter": 67
+        "DepthMeter": 46
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
            -0.3424649,
            51.4251316
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "DepthMeter": 45.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.37,
+          51.46
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "DepthMeter": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.37,
+          51.44
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "DepthMeter": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.435,
+          51.485
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "DepthMeter": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.41,
+          51.438
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "DepthMeter": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.33,
+          51.49
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "DepthMeter": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.33,
+          51.45
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "DepthMeter": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.34,
+          51.465
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "DepthMeter": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.36,
+          51.51
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "DepthMeter": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.46,
+          51.468
         ]
       }
     }

@@ -4,7 +4,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630003,
-        "DepthMeter": 5
+        "DepthMeter": 72
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630004,
-        "DepthMeter": 77
+        "DepthMeter": 90
       },
       "geometry": {
         "type": "Point",
@@ -32,7 +32,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630005,
-        "DepthMeter": 58
+        "DepthMeter": 40
       },
       "geometry": {
         "type": "Point",
@@ -46,7 +46,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630006,
-        "DepthMeter": 87
+        "DepthMeter": 55
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +60,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630007,
-        "DepthMeter": 0
+        "DepthMeter": 90
       },
       "geometry": {
         "type": "Point",
@@ -74,7 +74,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630008,
-        "DepthMeter": 82
+        "DepthMeter": 54
       },
       "geometry": {
         "type": "Point",
@@ -88,7 +88,7 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630009,
-        "DepthMeter": 72
+        "DepthMeter": 68
       },
       "geometry": {
         "type": "Point",
@@ -116,13 +116,139 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 20630012,
-        "DepthMeter": 65
+        "DepthMeter": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.3424649,
+           51.4251316
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "DepthMeter": 66
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
            -0.37,
           51.46
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "DepthMeter": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.37,
+          51.44
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "DepthMeter": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.435,
+          51.485
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "DepthMeter": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.41,
+          51.438
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "DepthMeter": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.33,
+          51.49
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "DepthMeter": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.33,
+          51.45
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "DepthMeter": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.34,
+          51.465
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "DepthMeter":43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.36,
+          51.51
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "DepthMeter": 98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -0.46,
+          51.468
         ]
       }
     }

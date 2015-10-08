@@ -10,18 +10,6 @@ function getColor(d) {
                       '#fff5f0';
 }
 
-
-function getColorNoise(d) {
-    return d>500 ? '#67000d':
-           d> 450 ? '#a50f15':
-           d > 400 ? '#cb181d' :
-           d > 350  ? '#ef3b2c' :
-           d > 300  ? '#fb6a4a' :
-           d > 250  ? '#fc9272' :
-           d > 200  ? '#fcbba1' :
-           d > 150   ? '#fee0d2' :
-                      '#fff5f0';
-}
     function PopUpShow(){
         $("#popup1").show();
     }
