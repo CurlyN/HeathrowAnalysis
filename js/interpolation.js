@@ -10,7 +10,7 @@ function showIsobands(bathymetry, toppic){
  document.getElementById("inter-map").innerHTML = "TOPIC: "+toppic.toUpperCase();
 
 
-      $.getScript('http://breatheheathrow.co.nf/pages/turf.custom.js', function()
+      $.getScript('../js/turf.custom.js', function()
       {         
             points_layer2= L.mapbox.featureLayer().loadURL(bathymetry);
 
@@ -69,7 +69,7 @@ function showIsobandsNoise(bathymetry, toppic){
  document.getElementById("inter-map").innerHTML = "TOPIC: "+toppic.toUpperCase();
 
 
-      $.getScript('http://breatheheathrow.co.nf/pages/turf.custom.js', function()
+      $.getScript('../js/turf.custom.js', function()
       {         
             points_layer2= L.mapbox.featureLayer().loadURL(bathymetry);
 
@@ -115,7 +115,7 @@ function showIsobandsTemperature(bathymetry, toppic){
  document.getElementById("inter-map").innerHTML = "TOPIC: "+toppic.toUpperCase();
 
 
-      $.getScript('http://breatheheathrow.co.nf/pages/turf.custom.js', function()
+      $.getScript('../js/turf.custom.js', function()
       {         
             points_layer2= L.mapbox.featureLayer().loadURL(bathymetry);
 

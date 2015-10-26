@@ -1,6 +1,7 @@
 
 var kk=0;
   function drawChart(topic){
+    document.getElementById("history-chart-note2").innerHTML = "TOPIC: "+topic.toUpperCase();
    document.getElementById("history-chart-note").innerHTML = "Please, wait whle data is loading ";
     kk=0;
     var values_at_each_hour_chart =[];
@@ -21,21 +22,52 @@ console.log("finish reading");
 
   var chart = new Chartist.Line('.ct-chart', {
   labels: time_line,
-  series: [ values_at_each_hour_chart[4],
-  values_at_each_hour_chart[5]
-  ,values_at_each_hour_chart[6],
-  values_at_each_hour_chart[8]
-  ,values_at_each_hour_chart[9]
-  ,values_at_each_hour_chart[12],
-  values_at_each_hour_chart[10],
-  values_at_each_hour_chart[11],
-  values_at_each_hour_chart[7]
+  series: [ {
+    name: "4",
+    color: "#fee0d2",
+    data: values_at_each_hour_chart[4]
+  },{
+  name: "5",
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[5]
+  },{
+  name: "6",  
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[6]
+  },{
+  name: "7",
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[8]
+  },{
+  name: "8",
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[9]
+  },{
+  name: "9",
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[12]
+  },{
+  name: "10",
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[10]
+  },{
+  name: "11",
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[11]
+  },{
+  name: "12",
+  color: "#fee0d2",
+  data: values_at_each_hour_chart[7]
+  }
   
   ]
   
 },
 {
-  low:-10
+  low:-10,
+  plugins: [
+        Chartist.plugins.legend()
+    ]
 });
 
 
@@ -181,5 +213,6 @@ chart.on('created', function() {
       console.log("no data");
       alert("Unfortunately, we received no data. Try another sensor please.");} 
 */
+
 }
 

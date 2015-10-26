@@ -6,7 +6,7 @@ function realTime2(topic_put){
   topic2 = topic_put;
   console.log(topic2);
 
-document.getElementById("rt-topic").innerHTML = "Topic: "+topic_put.toUpperCase();
+document.getElementById("real-time-notification2").innerHTML = "Topic: "+topic_put.toUpperCase();
 var palette = new Rickshaw.Color.Palette( { scheme: 'spectrum2001' } );
 var tv = 5000;
 
@@ -118,10 +118,10 @@ console.log("before reading messages");
 
 
 
-if(typeof(EventSource) !== "undefined") {
- 
-              //Taking the API from opensensor.io
-              var source = new EventSource("https://opensensors.io/api/1.0/public-stream/orgs/BreatheHeathrow/"+topic2+"");
+
+ if (!!window.EventSource) {
+        debugger;
+        var source = new EventSource("https://realtime.opensensors.io/v1/events/topics/%2Forgs%2FBreatheHEathrow%2F"+topic2.toLowerCase()+"");
 
                 //Listening messages from the server. Sourse take message as it created on the server
               source.onmessage = function(event) {

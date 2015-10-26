@@ -47,12 +47,20 @@ if (n / 10 > 1)
   data = "0"+n;
 }
 
+var month=d.getMonth()+1;
+if (month / 10 < 1)
+{
+  month = "0"+month;
+}
+
 console.log(data);
 //for (var data=1;data<3;data++){
 for ( var j = 0; j<=22;j++){
+      var url1='https://api.opensensors.io/v1/messages/topic/%2Forgs%2FBreatheHeathrow%2F'+topic.toLowerCase()+'%2F'+eggN+'?api-key=8c0ebeee-3a4e-4ef4-a660-6eef36e653e8&start-date=2015-'+month+'-'+data+'T'+time_line[j]+':00:00&end-date=2015-'+month+'-'+data+'T'+time_line[j]+':30:00';
+     // console.log(url1);
       BaseConfig=jQuery.ajax({
                             async:false,
-                            url:'https://opensensors.io/api/1.0/users/natalyosk/messages-by-topic?topic=/orgs/BreatheHeathrow/'+topic.toLowerCase()+'/'+eggN+'&api-key=8c0ebeee-3a4e-4ef4-a660-6eef36e653e8&start-date=2015-10-'+data+'T'+time_line[j]+':00:00&end-date=2015-10-'+data+'T'+time_line[j]+':30:00',
+                            url:url1,
                             ataType: 'json',
                             done: function(results) {
                                 JSON.parse(results);
@@ -64,10 +72,10 @@ for ( var j = 0; j<=22;j++){
                             }).responseJSON;
 
       //console.log(date);
-      console.log(topic);
-      console.log(eggN);
+      //console.log(topic);
+      //console.log(eggN);
       if (BaseConfig.messages!=null){
-      console.log(BaseConfig.messages);
+      //console.log(BaseConfig.messages);
       var values =[];
       var time_scale = [];
       var sum = 0;
@@ -79,6 +87,7 @@ for ( var j = 0; j<=22;j++){
         //console.log("in loop: "+ getTopic( BaseConfig.messages[i]));
         //console.log(getDevice( BaseConfig.messages[i])+ " and "+eggN);
       if (getTopic(BaseConfig.messages[i]) == topic) {
+        //console.log("inda topic")
           //if (parseInt(getDevice(BaseConfig.messages[i])) == parseInt(eggN)) {
                   if (getValue(BaseConfig.messages[i])!= null){
                     sum+=parseFloat(getValue(BaseConfig.messages[i]));
@@ -122,23 +131,25 @@ console.log(av);
 
       function getValue(number){
         res =  number.payload.text.split(',');
-        var values = res[2].split(':');
+        var values = res[3].split(':');
+        
         //console.log(values[1]);
                     return values[1];
       }
 
       function getDevice(number){
-        res =  number.payload.text.split(',');
-        var devices = res[1].split(':');
-                    return devices[1];
+        res =  number.topic.split('/');
+        //var devices = res[1].split(':');
+                    return res[4];
       }
 
 
       function getTopic(number){
-        res =  number.payload.text.split(',');
-        var values = res[0].split(':');
+        res =  number.topic.split('/');
+       // var values = res[0].split(':');
         //console.log(values[1]);
-                    return values[1];
+        //console.log(res[3].toUpperCase())
+                    return res[3].toUpperCase();
       }
 
 
